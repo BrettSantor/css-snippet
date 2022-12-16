@@ -1,6 +1,8 @@
 :root {
     --headerColor: rgba(232, 102, 236, 1);
     --otherText: #fff;
+    --borderstyle: dashed;
+    --
 }
 
 * {
@@ -11,12 +13,35 @@ header h1 {
     color: var(--headerColor);
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
 section header {
     color: var(--headerColor);
+    border: var(--otherText);
+    border-style: solid;
+    border-radius: 15%;
+
 
 }
 
-section p {
+.smallBox {
+border: var(--otherText);
+border-style: var(--borderstyle);
+
+}
+
+.bigBox {
+border: var(--otherText);
+border-style: var(--borderstyle);
+}
+
+section p,
+footer {
     color: var(--headerColor);
 }
 
@@ -24,4 +49,3 @@ header p,
 pre {
     color: var(--otherText)
 }
-
