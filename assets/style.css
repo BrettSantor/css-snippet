@@ -1,2 +1,27 @@
+:root {
+    --headerColor: rgba(232, 102, 236, 1);
+    --otherText: #fff;
+}
 
+* {
+    background-color: rgb(46, 58, 58);
+}
+
+header h1 {
+    color: var(--headerColor);
+}
+
+section header {
+    color: var(--headerColor);
+
+}
+
+section p {
+    color: var(--headerColor);
+}
+
+header p, 
+pre {
+    color: var(--otherText)
+}
 
