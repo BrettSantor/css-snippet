@@ -7,6 +7,7 @@
 
 * {
     background-color: rgb(46, 58, 58);
+    box-sizing: border-box;
     
 }
 
@@ -37,10 +38,12 @@ section header {
     border-radius: 5%;
     font-size: 30px;
     text-align: left;
-    width: 300px;
+    width: 75%;
     position: relative;
-    bottom: 25px;
-    left: 45px;    
+    margin:auto;
+    margin-top: -20px;
+    /* bottom: 25px;
+    left: 45px;     */
     line-height: 1.5;
 
 }
@@ -62,6 +65,11 @@ footer {
     color: var(--headerColor);
 }
 
+section p {
+    margin:auto 10px;
+    line-height: 2;
+}
+
 header p, 
 pre {
     color: var(--otherText)
@@ -74,4 +82,10 @@ pre {
     border-radius: 3%;
     padding-top: 10px;
     padding: 20px;
+    user-select: all;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
 }
