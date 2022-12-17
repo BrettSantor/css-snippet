@@ -27,7 +27,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    gap: 50px
+    gap: 50px;
     
 }
 
@@ -93,6 +93,18 @@ pre {
     padding: 20px;
     user-select: all;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      width: 100;
+    }
+  }
 
 footer {
     text-align: center;
