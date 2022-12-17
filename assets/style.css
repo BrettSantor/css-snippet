@@ -2,12 +2,20 @@
     --headerColor: rgba(232, 102, 236, 1);
     --otherText: #fff;
     --borderstyle: dashed;
-    --
+    
 }
 
 * {
     background-color: rgb(46, 58, 58);
+    
 }
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
 
 header h1 {
     color: var(--headerColor);
@@ -18,26 +26,35 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
+    gap: 50px
+    
 }
 
 section header {
     color: var(--headerColor);
     border: var(--otherText);
     border-style: solid;
-    border-radius: 15%;
-
+    border-radius: 5%;
+    font-size: 30px;
+    text-align: left;
+    width: 300px;
+    position: relative;
+    bottom: 25px;
+    left: 45px;    
+    line-height: 1.5;
 
 }
 
 .smallBox {
 border: var(--otherText);
 border-style: var(--borderstyle);
-
+width: 400px;
 }
 
 .bigBox {
 border: var(--otherText);
 border-style: var(--borderstyle);
+width: 400px;
 }
 
 section p,
@@ -48,4 +65,8 @@ footer {
 header p, 
 pre {
     color: var(--otherText)
+}
+
+pre {
+    background-image: linear-gradient(rgba(232, 102, 236, 0.3), rgba(232, 102, 236, 0.6));
 }
